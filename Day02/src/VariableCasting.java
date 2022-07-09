@@ -35,7 +35,7 @@ public class VariableCasting {
 		double aaa = 3.141562;
 		int bbb = (int)aaa;
 		System.out.println("double to float : " + bbb);
-		
+		 
 		
 	}
 
