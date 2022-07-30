@@ -49,6 +49,7 @@ public class SchoolApplication {
 			if(std == null) break;
 			std.sayName();
 			std.sayGender();
+		
 		}
 		
 		//-- 모든 자바클래스의 최상위 클래스는 Object -> Student is a Object
@@ -57,8 +58,8 @@ public class SchoolApplication {
 		classRoom2[1] = new GirlStudent("하악이", 20, 2, 99);
 		
 		for(Object std : classRoom2) {
-			Student tmp = (Student)std;
 			if(std == null) break;
+			Student tmp = (Student)std;
 			tmp.sayName();
 			tmp.sayGender();
 		}
